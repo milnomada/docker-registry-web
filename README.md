@@ -6,12 +6,10 @@ Web UI, authentication service and event recorder for private docker registry v2
 
 ## Features:
 
+  * Java8 on Ubuntu 16.04
   * Browsing repositories, tags and images in docker registry v2
   * Optional token based authentication provider with role-based permissions
   * Docker registry notification recording and audit
-
-### Warning: [this version config](https://github.com/mkuchin/docker-registry-web/blob/master/web-app/WEB-INF/config.yml) is not compatible with configuration of versions prior 0.1.0
-   [Migrating configuration from 0.0.4 to 0.1.x](https://github.com/mkuchin/docker-registry-web/wiki/Migrating-configuration) 
 
 ### Docker pull command
     
